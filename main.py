@@ -22,7 +22,7 @@ if not state["order"] or state["index"] >= len(state["order"]):
 law_index = state["order"][state["index"]]
 law = laws[law_index]
 
-message = f"""📖 {law['title']}
+message = f"""{law['title']}
 
 {law['description']}"""
 
